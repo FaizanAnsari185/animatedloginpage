@@ -10,7 +10,7 @@ const Login = () => {
   }
   return (
     <div className="h-screen bg-gray-100 flex flex-col justify-center items-center">
-      <div className="h-[60%] w-[70%] flex bg-white items-center rounded-2xl relative overflow-hidden shadow-2xl">
+      <div className="h-[60%] w-[70%] flex items-center bg-[#ffffff] rounded-2xl relative overflow-hidden shadow-2xl">
         <div
           className={`bg-[#ff2323] h-full w-1/2 absolute rounded-2xl ${
             move ? "translate-x-full" : ""
@@ -47,7 +47,7 @@ const Login = () => {
             className="px-3 py-1 bg-gray-200 text-sm rounded-sm"
           />
           <input
-            type="text"
+            type="password"
             placeholder="Password"
             className="px-3 py-1 bg-gray-200 text-sm rounded-sm"
           />
@@ -69,7 +69,7 @@ const Login = () => {
             className="px-3 py-1 bg-gray-200 text-sm rounded-sm"
           />
           <input
-            type="text"
+            type="password"
             placeholder="Password"
             className="px-3 py-1 bg-gray-200 text-sm rounded-sm"
           />
